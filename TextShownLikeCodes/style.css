@@ -1,0 +1,54 @@
+pre.code {
+  background-color: #1e1e1e;
+  /* Dark background color */
+  color: #d4d4d4;
+  /* Light text color */
+  font-family: 'Courier New', Courier, monospace;
+  /* Monospaced font */
+  font-size: 14px;
+  /* Adjust font size as needed */
+  line-height: 1.5;
+  /* Adjust line height for readability */
+  border: 1px solid #333;
+  /* Dark border */
+  border-radius: 5px;
+  /* Rounded corners */
+  padding: 20px;
+  overflow-x: auto;
+  /* Enable horizontal scrolling */
+}
+
+/* Syntax highlighting */
+pre.code code {
+  display: block;
+  overflow-x: auto;
+}
+
+/* Example syntax highlighting */
+pre.code code span.keyword {
+  color: #569cd6;
+  /* Blue color for keywords */
+}
+
+pre.code code span.comment {
+  color: #6a9955;
+  /* Green color for comments */
+}
+
+pre.code code span.string {
+  color: #ce9178;
+  /* Orange color for strings */
+}
+
+pre.code code span.function {
+  color: #dcdcaa;
+  /* Yellow color for function names */
+}
+
+pre.code code span.variable {
+  color: #def3d3;
+}
+
+pre.code code span.print {
+  color: #65e2c9;
+}
